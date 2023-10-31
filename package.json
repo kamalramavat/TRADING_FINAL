@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "npm run prepare && next build",
+    "vercel-build": "npm run prepare && next build && yarn run vercel-build",
     "prepare": "echo 'This is the prepare script.'",
     "prebuild": "jest"
 
