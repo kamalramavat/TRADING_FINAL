@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "vercel-build": "npm run prepare && next build",
-    "prepare": "echo 'This is the prepare script.'"
+    "prepare": "echo 'This is the prepare script.'",
+    "prebuild": "jest"
 
   },
   "dependencies": {
