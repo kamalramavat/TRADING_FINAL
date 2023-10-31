@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && babel src -d lib",
     "start": "next start",
     "lint": "next lint",
     "vercel-build": "npm run prepare && next build && yarn run vercel-build",
     "prepare": "echo 'This is the prepare script.'",
-    "prebuild": "jest"
+    "prebuild": "jest",
+    "test": "jest"
 
   },
   "dependencies": {
