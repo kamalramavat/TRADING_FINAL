@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "npm run prepare && next build"
+    "vercel-build": "npm run prepare && next build",
+    "prepare": "echo 'This is the prepare script.'"
+
   },
   "dependencies": {
     "axios": "^1.5.1",
