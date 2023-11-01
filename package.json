@@ -20,7 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^16.14.0",
     "react-plotly.js": "^2.6.0",
-    "react-stockcharts": "^0.7.8"
+    "react-stockcharts": "^0.6.1"
   },
   "devDependencies": {
     "@types/node": "^20",
